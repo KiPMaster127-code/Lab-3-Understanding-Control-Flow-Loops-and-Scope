@@ -10,10 +10,9 @@ if (number > 0) {
     console.log("The number is zero.");
 }
 
+// Step 3
 
 let day = 3; 
-
-// Step 3
 
 switch (day) {
     case 1:
@@ -87,5 +86,6 @@ function scopeExample() {
 }
 
 scopeExample();
+
 
 console.log(globalVar); 
